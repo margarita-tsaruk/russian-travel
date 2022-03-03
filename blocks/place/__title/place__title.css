@@ -1,0 +1,11 @@
+.place__title {
+  grid-area: title;
+  font-family: 'Inter ExtraBold';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.09;
+  color: #fff;
+  margin: 0 16px;
+  max-width: 288px;
+}

@@ -1,0 +1,9 @@
+.lead {
+  margin: 48px 0;
+}
+
+@media(min-width: 320px) {
+  .lead {
+
+  }
+}
