@@ -2,3 +2,14 @@
   margin: 48px 0 0;
 }
 
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .lead {
+    margin: 48px 48px 0;
+  }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1440px) {
+  .lead {
+    margin: 56px 148px 0;
+  }
+}

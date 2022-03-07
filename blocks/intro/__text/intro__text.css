@@ -1,6 +1,4 @@
 .intro__text {
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.625;
@@ -10,10 +8,27 @@
   max-width: 288px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 385px) and (max-width: 767px) {
   .intro__text {
-    font-size: 16px;
-    line-height: 1.62;
+    max-width: 600px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .intro__text {
     max-width: 720px;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .intro__text {
+    line-height: 1.63;
+    max-width: 690px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .intro__text {
+    max-width: 690px;
   }
 }
