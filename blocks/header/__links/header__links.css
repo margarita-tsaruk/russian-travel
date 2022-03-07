@@ -3,17 +3,22 @@
   gap: 18px;
   padding: 0;
   list-style: none;
-  margin: 8px 0 0;
 }
 
-@media all and (min-width: 425px) and (max-width: 1023px) {
+@media all and (min-width: 1024px) {
+  .header__links {
+    margin: 16px 0 0;
+  }
+}
+
+@media all and (max-width: 1023px) {
   .header__links {
     margin: 14px 0 0;
   }
 }
 
-@media all and (min-width: 1024px) and (max-width: 1440px) {
+@media all and (max-width: 384px) {
   .header__links {
-    margin: 16px 0 0;
+    margin: 8px 0 0;
   }
 }

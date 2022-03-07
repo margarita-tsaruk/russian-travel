@@ -2,23 +2,17 @@
   font-weight: normal;
   text-align: right;
   text-decoration-line: none;
-  font-size: 18px;
   line-height: 1.1;
-  max-width: 22px;
-  max-height: 20px;
   color: #fff;
 }
 
-@media screen and (min-width: 465px) and (max-width: 767px) {
+@media all and (min-width: 1100px) {
   .header__lang-link {
-    font-size: 20px;
-    line-height: 1.17;
-    max-width: 24px;
-    max-height: 22px;
+    font-size: 26px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media all and (min-width: 720px) and (max-width: 1099px) {
   .header__lang-link {
     font-size: 24px;
     line-height: 1.17;
@@ -27,8 +21,20 @@
   }
 }
 
-@media screen and (min-width: 1281px) {
+@media all and (min-width: 385px) and (max-width: 719px) {
   .header__lang-link {
-    font-size: 26px;
+    font-size: 20px;
+    line-height: 1.17;
+    max-width: 24px;
+    max-height: 22px;
   }
 }
+
+@media all and (max-width: 384px) {
+  .header__lang-link {
+    font-size: 18px;
+    max-width: 22px;
+    max-height: 20px;
+  }
+}
+

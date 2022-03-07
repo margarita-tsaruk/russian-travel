@@ -2,25 +2,40 @@
   font-weight: normal;
   text-align: center;
   color: #fff;
-  font-size: 16px;
-  line-height: 1.25;
-  margin: 16px 16px 0;
 }
 
-@media all and (min-width: 385px) and (max-width: 767px) {
-  .lead__subtitle {
-    margin: 18px 16px 0;
-    font-size: 20px;
-    line-height: 1.1;
-  }
-}
-
-@media all and (min-width: 768px) and (max-width: 1440px) {
-  .lead__subtitle {
-    margin: 32px auto 0;
+@media all and (min-width: 720px) {
+  .lead__subtitle  {
     font-size: 30px;
     line-height: 1.2;
+    margin: 32px auto 0;
     max-width: 640px;
+    }
+  }
+
+@media all and (min-width: 539px) and (max-width: 719px) {
+    .lead__subtitle {
+      font-size: 24px;
+      line-height: 1.1;
+      margin: 18px 16px 0;
+      max-width: 767px;
+    }
+  }
+
+@media all and (min-width: 385px) and (max-width: 538px) {
+  .lead__subtitle {
+    font-size: 20px;
+    line-height: 1.1;
+    margin: 18px 16px 0;
+    max-width: 767px;
   }
 }
 
+@media all and (max-width: 384px) {
+  .lead__subtitle  {
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 16px 16px 0;
+    max-width: 425px;
+  }
+}
