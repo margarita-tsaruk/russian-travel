@@ -4,13 +4,13 @@
   }
 }
 
-@media all and (min-width: 1024px) and (max-width: 1099px) {
+@media all and (min-width: 1000px) and (max-width: 1099px) {
   .lead {
     margin: 48px 48px 0;
   }
 }
 
-@media all and (max-width: 1023px) {
+@media all and (max-width: 999px) {
   .lead {
     margin: 48px 0 0;
   }

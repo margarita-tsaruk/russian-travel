@@ -13,16 +13,17 @@
   }
 }
 
-@media all and (min-width: 720px) and (max-width: 1000px) {
+@media all and (min-width: 385px) and (max-width: 1000px) {
   .place__title {
     font-size: 42px;
     line-height: 1.10;
     margin: 0;
     align-self: end;
+    max-width: 326px;
   }
 }
 
-@media all and  (max-width: 719px) {
+@media all and  (max-width: 384px) {
   .place__title {
     font-size: 32px;
     line-height: 1.09;

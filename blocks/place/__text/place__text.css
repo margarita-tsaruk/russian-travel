@@ -9,21 +9,21 @@
 
 @media all and (min-width: 1000px) {
   .place__text {
-
-    max-width: 456px;
+    max-width: 484px;
+    font-size: 18px;
   }
 }
 
-@media all and (min-width: 720px) and (max-width: 999px) {
+@media all and (min-width: 385px) and (max-width: 999px) {
   .place__text {
     max-width: 352px;
   }
 }
 
-@media all and (max-width: 719px) {
+@media all and (max-width: 384px) {
   .place__text {
-    margin: 32px 16px 0;
-    max-width: 288px;
+    margin: 0 16px;
+    max-width: 500px;
   }
 }
 

@@ -1,17 +1,11 @@
 .place__website {
   grid-area: website;
-  margin: 32px 16px 0;
+  margin: 0;
   align-self: end;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media all and (max-width: 385px) {
   .place__website {
-    margin: 0;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px){
-  .place__website {
-    margin: 0;
+    margin: 0 16px 0;
   }
 }

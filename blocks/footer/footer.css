@@ -1,16 +1,21 @@
 .footer {
-  padding: 64px 0 24px 16px;
   margin: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 1000px) {
+  .footer {
+    padding: 92px 48px 24px;
+  }
+}
+
+@media all and (min-width: 385px) and (max-width: 999px) {
   .footer {
     padding: 88px 24px 24px;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media all and (max-width: 384px) {
   .footer {
-    padding: 92px 48px 24px;
+    padding: 64px 0 24px 16px;
   }
 }

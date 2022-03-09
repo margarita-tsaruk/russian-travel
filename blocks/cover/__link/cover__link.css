@@ -26,14 +26,34 @@
   opacity: .8;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 1100px) {
+  .cover__link {
+    min-height: 740px;
+  }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1099px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media all and (min-width: 720px) and (max-width: 999px) {
   .cover__link {
     min-height: 480px;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media all and (min-width: 385px) and (max-width: 719px) {
   .cover__link {
-    min-height: 564px;
+    min-height: 320px;
   }
 }
+
+@media all and (max-width: 384px) {
+  .cover__link {
+    min-height: 200px;
+  }
+}
+
+

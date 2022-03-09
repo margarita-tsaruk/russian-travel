@@ -5,13 +5,13 @@
   box-sizing: border-box;
 }
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1000px) {
   .header {
     padding: 28px 48px 0;
   }
 }
 
-@media all and (max-width: 1023px) {
+@media all and (min-width: 385px) and (max-width: 999px) {
   .header {
     padding: 28px 24px 0;
   }
