@@ -32,7 +32,7 @@
 }
 
 @media all and (max-width: 384px) {
-  .lead__subtitle  {
+  .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;
     margin: 16px 16px 0;
