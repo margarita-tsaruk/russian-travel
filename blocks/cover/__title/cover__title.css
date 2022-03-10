@@ -6,7 +6,7 @@
 }
 
 @media all and (min-width: 720px) {
-  .cover__title  {
+  .cover__title {
     font-size: 72px;
     line-height: 1.06;
     margin: 0;
@@ -15,7 +15,7 @@
 }
 
 @media all and (min-width: 385px) and (max-width: 719px) {
-  .cover__title  {
+  .cover__title {
     font-size: 42px;
     line-height: 1.05;
     max-width: 400px;
@@ -24,7 +24,7 @@
 }
 
 @media all and (max-width: 384px) {
-  .cover__title  {
+  .cover__title {
     font-size: 32px;
     line-height: 1.09;
     margin: 33px auto 0;
