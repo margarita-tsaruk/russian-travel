@@ -23,7 +23,7 @@
     grid-template-rows: 145px 1fr;
   }
 
-  .place:nth-of-type(4n){
+  .place:nth-of-type(4n) {
     grid-template-rows: 143px 1fr;
   }
 }
@@ -41,7 +41,7 @@
     grid-template-rows: 142px 1fr;
   }
 
-  .place:nth-of-type(4n){
+  .place:nth-of-type(4n) {
     margin: 0;
     grid-template-rows: 152px 1fr;
   }
