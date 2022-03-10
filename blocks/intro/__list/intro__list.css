@@ -9,7 +9,7 @@
 }
 
 @media all and (min-width: 1000px) {
-.intro__list  {
+.intro__list {
   max-width: 690px;
   }
 }
