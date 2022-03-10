@@ -12,13 +12,13 @@
 }
 
 @media all and (min-width: 1000px) and  (max-width: 1099px) {
-  .lead__image  {
+  .lead__image {
     min-height: 580px;
   }
 }
 
 @media all and (min-width: 720px) and  (max-width: 999px) {
-  .lead__image  {
+  .lead__image {
     min-height: 480px;
   }
 }
