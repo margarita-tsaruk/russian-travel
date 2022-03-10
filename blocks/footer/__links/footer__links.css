@@ -8,7 +8,6 @@
 
 @media all and (min-width: 720px) {
   .footer__links {
-    flex-wrap: nowrap;
     flex-direction: row;
     gap: 18px;
   }

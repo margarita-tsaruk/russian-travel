@@ -1,17 +1,5 @@
 .header__lang-link_active:link {
   text-decoration: underline;
 }
-@media all and (min-width: 1000px) {
-  .header__lang-link_active:link {
-    width: 30px;
-    height: 28px;
-  }
-}
 
-@media all and (min-width: 720px) and (max-width: 999px) {
-  .header__lang-link_active:link {
-    width: 30px;
-    height: 28px;
-  }
-}
 

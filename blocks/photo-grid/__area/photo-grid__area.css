@@ -1,0 +1,20 @@
+.photo-grid__area {
+  list-style: none;
+  display: grid;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  gap: 16px;
+}
+
+@media all and (min-width: 1000px) and (max-width: 1099px) {
+  .photo-grid__area {
+    gap: 14px;
+  }
+}
+
+@media all and (max-width: 719px) {
+  .photo-grid__area {
+    gap: 12px;
+  }
+}

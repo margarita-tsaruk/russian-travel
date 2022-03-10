@@ -3,6 +3,8 @@
   text-align: center;
   color: #fff;
   z-index: 0;
+  line-height: 1.14;
+  margin: 16px auto 33px;
 }
 
 @media all and (min-width: 720px) {
@@ -17,8 +19,6 @@
 @media all and (min-width: 385px) and (max-width: 719px) {
   .cover__subtitle {
     font-size: 16px;
-    line-height: 1.14;
-    margin: 16px auto 33px;
     max-width: 300px;
   }
 }
@@ -26,8 +26,6 @@
 @media all and (max-width: 384px) {
   .cover__subtitle {
     font-size: 14px;
-    line-height: 1.14;
-    margin: 16px auto 33px;
     max-width: 268px;
   }
 }

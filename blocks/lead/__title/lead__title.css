@@ -23,7 +23,6 @@
 @media all and (min-width: 445px) and (max-width: 538px) {
   .lead__title {
     font-size: 60px;
-    margin: 0 12px;
   }
 }
 

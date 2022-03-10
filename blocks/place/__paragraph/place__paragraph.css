@@ -2,17 +2,13 @@
   margin: 0;
 }
 
-.place__paragraph:nth-of-type(2n) {
-  margin-top: 25px;
+.place__paragraph:first-of-type {
+  margin-bottom: 25px;
 }
 
 @media all and (min-width: 1100px) {
   .place__paragraph {
     max-width: 484px;
-  }
-
-  .place__paragraph:nth-of-type(2n) {
-    margin-top: 26px;
   }
 }
 
@@ -21,8 +17,8 @@
     max-width: 456px;
   }
 
-  .place__paragraph:nth-of-type(2n) {
-    margin-top: 27px;
+  .place__paragraph:first-of-type {
+    margin-bottom: 27px;
   }
 }
 
@@ -35,10 +31,6 @@
 @media all and (min-width: 385px) and (max-width: 719px) {
   .place__paragraph {
     max-width: 719px;
-  }
-
-  .place__paragraph:nth-of-type(2n) {
-    margin-top: 26px;
   }
 }
 
