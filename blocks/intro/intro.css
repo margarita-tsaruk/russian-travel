@@ -8,25 +8,25 @@
   }
 }
 
-@media all and (min-width: 1024px)and (max-width: 1099px) {
+@media all and (min-width: 1000px)and (max-width: 1099px) {
   .intro {
     margin: 92px auto 0 48px;
   }
 }
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 720px) and (max-width: 999px) {
   .intro {
     margin: 88px 24px 0;
   }
 }
 
-@media all and (min-width: 425px) and (max-width: 767px) {
+@media all and (min-width: 385px) and (max-width: 719px) {
   .intro {
     margin: 72px 20px 0;
   }
 }
 
-@media all and (max-width: 424px) {
+@media all and (max-width: 384px) {
   .intro {
     margin: 64px 16px 0;
   }

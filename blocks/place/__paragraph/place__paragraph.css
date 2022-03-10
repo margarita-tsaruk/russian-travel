@@ -31,9 +31,10 @@
     max-width: 352px;
   }
 }
+
 @media all and (min-width: 385px) and (max-width: 719px) {
   .place__paragraph {
-    max-width: 500px;
+    max-width: 719px;
   }
 
   .place__paragraph:nth-of-type(2n) {
@@ -43,6 +44,6 @@
 
 @media all and (max-width: 384px) {
   .place__paragraph {
-    max-width: 288px;
+    max-width: 384px;
   }
 }

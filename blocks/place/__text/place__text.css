@@ -16,14 +16,14 @@
 
 @media all and (min-width: 385px) and (max-width: 999px) {
   .place__text {
-    max-width: 352px;
+    max-width: 720px;
   }
 }
 
 @media all and (max-width: 384px) {
   .place__text {
     margin: 0 16px;
-    max-width: 500px;
+    max-width: 384px;
   }
 }
 

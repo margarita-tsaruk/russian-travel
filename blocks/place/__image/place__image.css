@@ -1,16 +1,6 @@
 .place__image {
   grid-area: image;
   width: 100%;
+  margin: 0;
 }
 
-@media all and (min-width: 720px) {
-  .place__image {
-    margin: 0;
-  }
-}
-
-@media all and (max-width: 719px) {
-  .place__image {
-    margin: 0;
-  }
-}

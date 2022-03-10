@@ -13,7 +13,7 @@
   }
 }
 
-@media all and (min-width: 385px) and (max-width: 1000px) {
+@media all and (min-width: 385px) and (max-width: 999px) {
   .place__title {
     font-size: 42px;
     line-height: 1.10;

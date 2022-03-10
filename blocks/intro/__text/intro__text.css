@@ -7,7 +7,7 @@
   max-width: 690px;
 }
 
-@media all and (min-width: 720px) and (max-width: 1099px) {
+@media all and (min-width: 385px) and (max-width: 1099px) {
   .intro__text {
     max-width: 720px;
   }

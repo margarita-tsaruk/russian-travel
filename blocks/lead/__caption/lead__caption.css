@@ -6,19 +6,19 @@
   text-transform: uppercase;
 }
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1000px) {
   .lead__caption {
     margin: 8px 0 0;
   }
 }
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 720px) and (max-width: 999px) {
   .lead__caption {
     margin: 8px 0 0 24px;
   }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 719px) {
   .lead__caption {
     margin: 8px 0 0 16px;
   }

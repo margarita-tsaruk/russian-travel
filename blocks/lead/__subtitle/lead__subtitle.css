@@ -10,8 +10,8 @@
     line-height: 1.2;
     margin: 32px auto 0;
     max-width: 640px;
-    }
   }
+}
 
 @media all and (min-width: 539px) and (max-width: 719px) {
     .lead__subtitle {
@@ -19,8 +19,8 @@
       line-height: 1.1;
       margin: 18px 16px 0;
       max-width: 767px;
-    }
   }
+}
 
 @media all and (min-width: 385px) and (max-width: 538px) {
   .lead__subtitle {
