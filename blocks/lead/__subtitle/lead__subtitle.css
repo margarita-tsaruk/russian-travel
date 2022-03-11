@@ -17,7 +17,6 @@
 @media all and (min-width: 539px) and (max-width: 719px) {
   .lead__subtitle {
     font-size: 24px;
-    margin: 18px 16px 0;
     max-width: 767px;
   }
 }

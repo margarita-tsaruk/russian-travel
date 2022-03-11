@@ -5,12 +5,15 @@
   line-height: 1.63;
   color: #FFFFFF;
   margin: 0;
+  display: grid;
+  gap: 25px;
 }
 
 @media all and (min-width: 1000px) {
   .place__text {
     max-width: 484px;
     font-size: 18px;
+    gap: 27px;
   }
 }
 
